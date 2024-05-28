@@ -1,12 +1,11 @@
 import 'dart:async';
-import 'dart:ffi';
 import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:imajoo/features/repos/prompt_repo.dart';
-import 'package:meta/meta.dart';
+
 
 part 'prompt_event.dart';
 part 'prompt_state.dart';

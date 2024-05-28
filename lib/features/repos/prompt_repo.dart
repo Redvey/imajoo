@@ -1,8 +1,6 @@
 
 
-import 'dart:convert';
 import 'dart:developer';
-import 'dart:io';
 import 'dart:typed_data';
 
 import 'package:dio/dio.dart';
@@ -42,6 +40,7 @@ class PromptRepo {
     } catch (e) {
       log(e.toString());
     }
+    return null;
   }
 }
 //Generate a Disney image of a princess with a prince
